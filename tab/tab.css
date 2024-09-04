@@ -1,0 +1,33 @@
+.breadcrumb__link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  padding: 20px;
+  text-transform: capitalize;
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+.breadcrumb__link:hover {
+  border-bottom: 1px solid red;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons {
+  padding: 20px;
+  background-color: rgb(43, 226, 134);
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.active {
+  background-color: red;
+}
